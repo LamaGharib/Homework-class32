@@ -52,3 +52,25 @@ ex5-wallet/index.js
 ✖ 5 problems (5 errors, 0 warnings)
 
 
+2021-05-14 12:00:29 info: -------------------------------------------------
+2021-05-14 12:00:29 info: >>> Running Unit Test `ex1-doubleEvenNumbers` <<<
+2021-05-14 12:00:29 info: -------------------------------------------------
+2021-05-14 12:00:44 info: All unit tests passed.
+2021-05-14 12:00:53 info: All steps were completed successfully
+2021-05-14 07:01:02 info: --------------------------------------
+2021-05-14 07:01:02 info: >>> Running Unit Test `ex5-wallet` <<<
+2021-05-14 07:01:02 info: --------------------------------------
+2021-05-14 07:01:06 error: *** Unit Test Error Report ***
+
+- wallet q4: What is displayed in the console?
+
+2021-05-14 07:57:46 info: --------------------------------------
+2021-05-14 07:57:46 info: >>> Running Unit Test `ex5-wallet` <<<
+2021-05-14 07:57:46 info: --------------------------------------
+2021-05-14 07:57:51 info: All unit tests passed.
+2021-05-14 07:57:54 info: All steps were completed successfully
+2021-05-15 11:52:31 info: --------------------------------------
+2021-05-15 11:52:31 info: >>> Running Unit Test `ex5-wallet` <<<
+2021-05-15 11:52:31 info: --------------------------------------
+2021-05-15 11:52:37 info: All unit tests passed.
+2021-05-15 11:52:43 info: All steps were completed successfully
