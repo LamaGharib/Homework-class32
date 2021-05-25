@@ -1,0 +1,233 @@
+2021-05-24 01:50:54 info: --------------------------------------------
+2021-05-24 01:50:54 info: >>> Running Unit Test `ex4-whatsTheTime` <<<
+2021-05-24 01:50:54 info: --------------------------------------------
+2021-05-24 01:51:03 error: *** Unit Test Error Report ***
+
+- whatsTheTime should use `window.onload` or `window.addEventListener()` for the `load` or `DOMContentLoaded` event
+- whatsTheTime `window.onload` or `window.addEventListener` should not call its event handler function
+
+2021-05-24 01:52:17 info: --------------------------------------------
+2021-05-24 01:52:17 info: >>> Running Unit Test `ex4-whatsTheTime` <<<
+2021-05-24 01:52:17 info: --------------------------------------------
+2021-05-24 01:52:24 error: *** Unit Test Error Report ***
+
+- whatsTheTime should use `window.onload` or `window.addEventListener()` for the `load` or `DOMContentLoaded` event
+
+2021-05-24 01:53:10 info: --------------------------------------------
+2021-05-24 01:53:10 info: >>> Running Unit Test `ex4-whatsTheTime` <<<
+2021-05-24 01:53:10 info: --------------------------------------------
+2021-05-24 01:53:17 error: *** Unit Test Error Report ***
+
+- whatsTheTime should use `window.onload` or `window.addEventListener()` for the `load` or `DOMContentLoaded` event
+
+2021-05-24 01:53:19 error: *** ESLint Report ***
+
+ex4-whatsTheTime/index.js
+  15:27  error  'DOMContentLoaded' is not defined  no-undef
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+2021-05-24 01:54:22 info: --------------------------------------------
+2021-05-24 01:54:22 info: >>> Running Unit Test `ex4-whatsTheTime` <<<
+2021-05-24 01:54:22 info: --------------------------------------------
+2021-05-24 01:54:29 error: *** Unit Test Error Report ***
+
+- whatsTheTime should use `window.onload` or `window.addEventListener()` for the `load` or `DOMContentLoaded` event
+
+2021-05-24 01:54:31 error: *** ESLint Report ***
+
+ex4-whatsTheTime/index.js
+  15:32  error  'DOMContentLoaded' is not defined  no-undef
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+2021-05-24 01:54:58 info: --------------------------------------------
+2021-05-24 01:54:58 info: >>> Running Unit Test `ex4-whatsTheTime` <<<
+2021-05-24 01:54:58 info: --------------------------------------------
+2021-05-24 01:55:06 error: *** Unit Test Error Report ***
+
+- whatsTheTime should use `window.onload` or `window.addEventListener()` for the `load` or `DOMContentLoaded` event
+
+2021-05-24 01:55:45 info: --------------------------------------------
+2021-05-24 01:55:45 info: >>> Running Unit Test `ex4-whatsTheTime` <<<
+2021-05-24 01:55:45 info: --------------------------------------------
+2021-05-24 01:55:52 error: *** Unit Test Error Report ***
+
+- whatsTheTime should use `window.onload` or `window.addEventListener()` for the `load` or `DOMContentLoaded` event
+- whatsTheTime `window.onload` or `window.addEventListener` should not call its event handler function
+
+2021-05-24 01:57:08 info: --------------------------------------------
+2021-05-24 01:57:08 info: >>> Running Unit Test `ex4-whatsTheTime` <<<
+2021-05-24 01:57:08 info: --------------------------------------------
+2021-05-24 01:57:15 error: *** Unit Test Error Report ***
+
+- whatsTheTime should use `window.onload` or `window.addEventListener()` for the `load` or `DOMContentLoaded` event
+
+2021-05-24 01:57:17 error: *** ESLint Report ***
+
+ex4-whatsTheTime/index.js
+  15:25  error  'DOMContentLoaded' is not defined  no-undef
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+2021-05-24 02:39:00 info: --------------------------------------------
+2021-05-24 02:39:00 info: >>> Running Unit Test `ex4-whatsTheTime` <<<
+2021-05-24 02:39:00 info: --------------------------------------------
+2021-05-24 02:39:08 error: *** Unit Test Error Report ***
+
+- whatsTheTime should use `window.onload` or `window.addEventListener()` for the `load` or `DOMContentLoaded` event
+- whatsTheTime `window.onload` or `window.addEventListener` should not call its event handler function
+
+2021-05-24 02:41:11 info: --------------------------------------------
+2021-05-24 02:41:11 info: >>> Running Unit Test `ex4-whatsTheTime` <<<
+2021-05-24 02:41:11 info: --------------------------------------------
+2021-05-24 02:41:19 error: *** Unit Test Error Report ***
+
+- whatsTheTime should use `window.onload` or `window.addEventListener()` for the `load` or `DOMContentLoaded` event
+
+2021-05-24 02:42:26 info: --------------------------------------------
+2021-05-24 02:42:26 info: >>> Running Unit Test `ex4-whatsTheTime` <<<
+2021-05-24 02:42:26 info: --------------------------------------------
+2021-05-24 02:42:34 error: *** Unit Test Error Report ***
+
+- whatsTheTime should use `window.onload` or `window.addEventListener()` for the `load` or `DOMContentLoaded` event
+
+2021-05-24 06:29:57 info: ---------------------------------------
+2021-05-24 06:29:57 info: >>> Running Unit Test `ex5-catWalk` <<<
+2021-05-24 06:29:57 info: ---------------------------------------
+2021-05-24 06:30:24 info: All unit tests passed.
+2021-05-24 06:30:36 info: All steps were completed successfully
+2021-05-24 10:35:54 info: --------------------------------------------
+2021-05-24 10:35:54 info: >>> Running Unit Test `ex4-whatsTheTime` <<<
+2021-05-24 10:35:54 info: --------------------------------------------
+2021-05-24 10:36:06 error: *** Unit Test Error Report ***
+
+- whatsTheTime should use `window.onload` or `window.addEventListener()` for the `load` or `DOMContentLoaded` event
+- whatsTheTime `window.onload` or `window.addEventListener` should not call its event handler function
+
+2021-05-24 10:37:12 info: --------------------------------------------
+2021-05-24 10:37:12 info: >>> Running Unit Test `ex4-whatsTheTime` <<<
+2021-05-24 10:37:12 info: --------------------------------------------
+2021-05-24 10:37:22 error: *** Unit Test Error Report ***
+
+- whatsTheTime `window.onload` or `window.addEventListener` should not call its event handler function
+
+2021-05-24 10:38:05 info: --------------------------------------------
+2021-05-24 10:38:05 info: >>> Running Unit Test `ex4-whatsTheTime` <<<
+2021-05-24 10:38:05 info: --------------------------------------------
+2021-05-24 10:38:12 info: All unit tests passed.
+2021-05-24 10:38:16 info: All steps were completed successfully
+2021-05-25 12:11:03 info: ---------------------------------------
+2021-05-25 12:11:03 info: >>> Running Unit Test `ex5-catWalk` <<<
+2021-05-25 12:11:03 info: ---------------------------------------
+2021-05-25 12:11:11 error: *** Unit Test Error Report ***
+
+- catWalk should use `window.onload` or `window.addEventListener()` for the `load` or `DOMContentLoaded` event
+
+2021-05-25 12:11:13 error: *** ESLint Report ***
+
+ex5-catWalk/index.js
+  43:5  warning  'bla' is never reassigned. Use 'const' instead  no-autofix/prefer-const
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+2021-05-25 12:13:31 info: ---------------------------------------
+2021-05-25 12:13:31 info: >>> Running Unit Test `ex5-catWalk` <<<
+2021-05-25 12:13:31 info: ---------------------------------------
+2021-05-25 12:13:39 info: All unit tests passed.
+2021-05-25 12:13:41 error: *** ESLint Report ***
+
+ex5-catWalk/index.js
+  34:19  error    'bla' is not defined                              no-undef
+  43:5   warning  'dance' is never reassigned. Use 'const' instead  no-autofix/prefer-const
+  43:5   error    'dance' is assigned a value but never used        no-unused-vars
+
+✖ 3 problems (2 errors, 1 warning)
+
+
+2021-05-25 08:04:25 info: ------------------------------------------
+2021-05-25 08:04:25 info: >>> Running Unit Test `ex6-gameOfLife` <<<
+2021-05-25 08:04:25 info: ------------------------------------------
+2021-05-25 08:04:42 info: All unit tests passed.
+2021-05-25 08:04:52 info: All steps were completed successfully
+2021-05-25 08:08:53 info: ------------------------------------------
+2021-05-25 08:08:53 info: >>> Running Unit Test `ex6-gameOfLife` <<<
+2021-05-25 08:08:53 info: ------------------------------------------
+2021-05-25 08:09:04 info: All unit tests passed.
+2021-05-25 08:09:11 info: All steps were completed successfully
+2021-05-25 10:01:58 info: ----------------------------------------
+2021-05-25 10:01:58 info: >>> Running Unit Test `ex1-bookList` <<<
+2021-05-25 10:01:58 info: ----------------------------------------
+2021-05-25 10:02:17 error: *** Unit Test Error Report ***
+
+- Generated HTML HTML should be syntactically valid
+  inline
+    10:211  error  <img> is missing required "alt" attribute  wcag/h37
+    10:466  error  <img> is missing required "alt" attribute  wcag/h37
+    10:712  error  <img> is missing required "alt" attribute  wcag/h37
+  
+  ✖ 3 problems (3 errors, 0 warnings)
+  
+
+2021-05-25 10:02:22 error: *** ESLint Report ***
+
+ex1-bookList/index.js
+  48:9  warning  'pEl' is never reassigned. Use 'const' instead    no-autofix/prefer-const
+  53:9  warning  'liEL' is never reassigned. Use 'const' instead   no-autofix/prefer-const
+  58:9  warning  'imgEl' is never reassigned. Use 'const' instead  no-autofix/prefer-const
+
+✖ 3 problems (0 errors, 3 warnings)
+
+
+2021-05-25 10:02:27 error: *** Spell Checker Report ***
+
+ex1-bookList/index.js:81:7 - Unknown word (booklist)
+ex1-bookList/index.js:82:1 - Unknown word (booklist)
+
+2021-05-25 10:07:49 info: ----------------------------------------
+2021-05-25 10:07:49 info: >>> Running Unit Test `ex1-bookList` <<<
+2021-05-25 10:07:49 info: ----------------------------------------
+2021-05-25 10:08:05 info: All unit tests passed.
+2021-05-25 10:08:14 error: *** Spell Checker Report ***
+
+ex1-bookList/index.js:68:34 - Unknown word (coverthe)
+
+2021-05-25 10:17:21 info: ----------------------------------------
+2021-05-25 10:17:21 info: >>> Running Unit Test `ex1-bookList` <<<
+2021-05-25 10:17:21 info: ----------------------------------------
+2021-05-25 10:17:38 info: All unit tests passed.
+2021-05-25 10:17:47 info: All steps were completed successfully
+2021-05-25 10:18:32 info: ---------------------------------------
+2021-05-25 10:18:32 info: >>> Running Unit Test `ex2-aboutMe` <<<
+2021-05-25 10:18:32 info: ---------------------------------------
+2021-05-25 10:18:49 info: All unit tests passed.
+2021-05-25 10:18:54 error: *** Spell Checker Report ***
+
+ex2-aboutMe/index.js:18:21 - Unknown word (Laaamaaaa)
+ex2-aboutMe/index.js:20:21 - Unknown word (Pizaaaaa)
+ex2-aboutMe/index.js:22:21 - Unknown word (Lattakia)
+
+2021-05-25 10:21:01 info: ------------------------------------------
+2021-05-25 10:21:01 info: >>> Running Unit Test `ex3-hijackLogo` <<<
+2021-05-25 10:21:01 info: ------------------------------------------
+2021-05-25 10:21:10 info: All unit tests passed.
+2021-05-25 10:21:16 info: All steps were completed successfully
+2021-05-25 10:22:33 info: ---------------------------------------
+2021-05-25 10:22:33 info: >>> Running Unit Test `ex5-catWalk` <<<
+2021-05-25 10:22:33 info: ---------------------------------------
+2021-05-25 10:22:42 info: All unit tests passed.
+2021-05-25 10:22:46 info: All steps were completed successfully
+2021-05-25 10:23:59 info: ------------------------------------------
+2021-05-25 10:23:59 info: >>> Running Unit Test `ex6-gameOfLife` <<<
+2021-05-25 10:23:59 info: ------------------------------------------
+2021-05-25 10:24:06 info: All unit tests passed.
+2021-05-25 10:24:10 info: All steps were completed successfully
+2021-05-25 10:32:03 info: ------------------------------------------
+2021-05-25 10:32:03 info: >>> Running Unit Test `ex6-gameOfLife` <<<
+2021-05-25 10:32:03 info: ------------------------------------------
+2021-05-25 10:32:09 info: All unit tests passed.
+2021-05-25 10:32:14 info: All steps were completed successfully

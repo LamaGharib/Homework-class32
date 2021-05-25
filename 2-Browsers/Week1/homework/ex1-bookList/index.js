@@ -41,8 +41,47 @@ const myBooks = [
 
 function createBookList(books) {
   // your code goes in here, return the ul element
+  const ul = document.createElement('ul');
+  ul.style.display = 'flex';
+
+  books.forEach((obj) => {
+    const pEl = document.createElement('p');
+    pEl.textContent = `${obj.title} - ${obj.author}`;
+    pEl.style.padding = '20px';
+    pEl.style.textAlign = 'center';
+
+    const liEL = document.createElement('li');
+    liEL.style.listStyle = 'none';
+    liEL.style.margin = '50px';
+    liEL.appendChild(pEl);
+
+    const imgEl = document.createElement('img');
+    imgEl.style.width = '300px';
+    imgEl.style.marginLeft = '10px';
+
+    liEL.appendChild(imgEl);
+    if (`${obj.title}` === 'The Design of Everyday Things') {
+      imgEl.src = 'assets/the_design_of_everyday_things.jpg';
+      imgEl.alt = ' image of book cover the design of everyday things ';
+    } else if (`${obj.title}` === 'The Most Human Human') {
+      imgEl.src = 'assets/the_most_human_human.jpg';
+      imgEl.alt = 'image of book cover the most human human ';
+    } else {
+      imgEl.src = 'assets/the_pragmatic_programmer.jpg';
+      imgEl.alt = 'image of book cover The Pragmatic Programmer';
+    }
+
+    obj.alreadyRead
+      ? (liEL.style.backgroundColor = 'green')
+      : (liEL.style.backgroundColor = 'red');
+    ul.appendChild(liEL);
+  });
+
+  return ul;
 }
 
 const ulElement = createBookList(myBooks);
+const h1 = document.querySelector('h1');
+h1.style.textAlign = 'center';
 
 document.querySelector('#bookList').appendChild(ulElement);

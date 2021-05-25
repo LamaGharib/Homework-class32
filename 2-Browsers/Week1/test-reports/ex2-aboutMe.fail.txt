@@ -1,0 +1,6 @@
+
+*** Spell Checker Report ***
+
+ex2-aboutMe/index.js:18:21 - Unknown word (Laaamaaaa)
+ex2-aboutMe/index.js:20:21 - Unknown word (Pizaaaaa)
+ex2-aboutMe/index.js:22:21 - Unknown word (Lattakia)

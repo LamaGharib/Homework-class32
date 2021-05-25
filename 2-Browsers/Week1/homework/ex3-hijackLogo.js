@@ -6,7 +6,13 @@
    HackYourFuture logo instead.
 ------------------------------------------------------------------------------*/
 function hijackGoogleLogo() {
-  // TODO your code goes in here
+  const hyfLogo = document.querySelectorAll('#hplogo');
+  hyfLogo.forEach((element) => {
+    element.src =
+      'https://www.backbase.com/wp-content/uploads/2020/01/hackyourfuture_black-300x156.png';
+    element.srcset =
+      'https://www.backbase.com/wp-content/uploads/2020/01/hackyourfuture_black-300x156.png';
+  });
 }
 
 hijackGoogleLogo();

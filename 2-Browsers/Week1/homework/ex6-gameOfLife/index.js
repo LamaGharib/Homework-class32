@@ -9,12 +9,16 @@ const NUM_ROWS = 40;
 
 // Create a cell with the given coordinates and randomly assign its begin state:
 // life or death
+let lifeTime = 0;
 function createCell(x, y) {
   const alive = Math.random() > 0.5;
+  alive ? (lifeTime = 1) : (lifeTime = 0);
+
   return {
     x,
     y,
     alive,
+    lifeTime,
   };
 }
 
@@ -53,8 +57,18 @@ function createGame(context, numRows, numColumns) {
     );
 
     if (cell.alive) {
+      let opacity;
+      if (lifeTime === 1) {
+        opacity = 0.25;
+      } else if (lifeTime === 2) {
+        opacity = 0.5;
+      } else if (lifeTime === 3) {
+        opacity = 0.75;
+      } else if (lifeTime >= 4) {
+        opacity = 1;
+      }
       // Draw living cell inside background
-      context.fillStyle = `rgb(24, 215, 236)`;
+      context.fillStyle = `rgb(24, 215, 236 ,${opacity})`;
       context.fillRect(
         cell.x * CELL_SIZE + 1,
         cell.y * CELL_SIZE + 1,
@@ -95,6 +109,7 @@ function createGame(context, numRows, numColumns) {
     // Loop over all cells to determine their next state.
     forEachCell((cell) => {
       // Count number of living neighboring cells
+
       const numAlive = countLivingNeighbors(cell);
 
       if (numAlive === 2) {
@@ -112,6 +127,13 @@ function createGame(context, numRows, numColumns) {
     // Apply the newly computed state to the cells
     forEachCell((cell) => {
       cell.alive = cell.nextAlive;
+      if (cell.alive === true) {
+        cell.lifeTime = cell.lifeTime + 1;
+      } else if (cell.alive === false) {
+        cell.lifeTime = 0;
+      } else {
+        cell.lifeTime = 1;
+      }
     });
   }
 
