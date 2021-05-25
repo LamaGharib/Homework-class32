@@ -41,7 +41,7 @@ function createPublisher() {
   const subscribers = [];
   return {
     subscribe(func) {
-     subscribers.push( func)
+     subscribers.push(func)
         
     },
     notify(message) {
