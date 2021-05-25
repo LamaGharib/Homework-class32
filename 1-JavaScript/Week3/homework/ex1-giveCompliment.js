@@ -19,7 +19,16 @@
 -----------------------------------------------------------------------------*/
 function giveCompliment(name) {
     
-  const compliments = ['pretty','cool','awesome','smart','generous','funny','good','open minded','fast','fun']
+  const compliments = ['pretty',
+                       'cool',
+                       'awesome',
+                       'smart',
+                       'generous',
+                       'funny',
+                       'good',
+                       'open minded',
+                       'fast',
+                       'fun']
    
   const result = compliments[Math.floor(Math.random() * compliments.length)];
 
