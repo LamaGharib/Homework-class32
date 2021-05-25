@@ -16,7 +16,7 @@ it pure. Do the following:
    spread syntax.
 ------------------------------------------------------------------------------*/
 function addToShoppingCart(arr,str) {
-  let newArr = [str,...arr]
+  let newArr = [...arr,str]
   if (newArr.length > 3){
      arr.shift()   
   }
