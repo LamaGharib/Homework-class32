@@ -30,7 +30,7 @@ function catWalk() {
     img.style.left = '0px';
   }
 
-  if (parseFloat(img.style.left) > window.screen.availWidth / 2) {
+  if (!hasDanced && parseFloat(img.style.left) > window.screen.availWidth / 2) {
     clearInterval(move);
     img.src =
       ' https://media1.tenor.com/images/2de63e950fb254920054f9bd081e8157/tenor.gif';
