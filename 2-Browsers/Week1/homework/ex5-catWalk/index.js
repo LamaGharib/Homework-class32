@@ -22,7 +22,7 @@
 
 const img = document.querySelector('img');
 img.style.left = '0px';
-let hasDanced = true;
+let hasDanced = false;
 function catWalk() {
   img.style.left = `${parseFloat(img.style.left) + 10}px`;
 
@@ -32,6 +32,7 @@ function catWalk() {
   }
 
   if (!hasDanced && parseFloat(img.style.left) > window.screen.availWidth / 2) {
+    hasDanced = true;
     clearInterval(move);
     img.src =
       ' https://media1.tenor.com/images/2de63e950fb254920054f9bd081e8157/tenor.gif';
