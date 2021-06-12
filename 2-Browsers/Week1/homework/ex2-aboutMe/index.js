@@ -21,7 +21,7 @@ food.textContent = 'Pizaaaaa';
 const home = document.getElementById('hometown');
 home.textContent = 'Lattakia';
 
-const ulElement = document.querySelectorAll('li');
-for (let i = 0; i < ulElement.length; i++) {
-  ulElement[i].className = 'list-item';
+const ulElements = document.querySelectorAll('li');
+for (const ulElement of ulElements) {
+  ulElement.className = 'list-item';
 }
