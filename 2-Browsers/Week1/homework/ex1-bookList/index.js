@@ -60,10 +60,10 @@ function createBookList(books) {
     imgEl.style.marginLeft = '10px';
 
     liEL.appendChild(imgEl);
-    if (`${obj.title}` === 'The Design of Everyday Things') {
+    if (obj.title === 'The Design of Everyday Things') {
       imgEl.src = 'assets/the_design_of_everyday_things.jpg';
       imgEl.alt = ' image of book cover the design of everyday things ';
-    } else if (`${obj.title}` === 'The Most Human Human') {
+    } else if (obj.title === 'The Most Human Human') {
       imgEl.src = 'assets/the_most_human_human.jpg';
       imgEl.alt = 'image of book cover the most human human ';
     } else {
@@ -71,9 +71,12 @@ function createBookList(books) {
       imgEl.alt = 'image of book cover The Pragmatic Programmer';
     }
 
-    obj.alreadyRead
-      ? (liEL.style.backgroundColor = 'green')
-      : (liEL.style.backgroundColor = 'red');
+    if (obj.alreadyRead === true) {
+      liEL.style.backgroundColor = 'green';
+    } else {
+      liEL.style.backgroundColor = 'red';
+    }
+
     ul.appendChild(liEL);
   });
 
