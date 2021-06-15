@@ -24,14 +24,13 @@ exercise file.
 const rollDice = require('../../helpers/pokerDiceRoller');
 
 function rollTheDices() {
-  // TODO Refactor this function
   const dices = [1, 2, 3, 4, 5];
-  return rollDice(1);
+  return Promise.all(dices.map((dice) => rollDice(dice)));
 }
 
 rollTheDices()
   .then((results) => console.log('Resolved!', results))
   .catch((error) => console.log('Rejected!', error.message));
-
+// since  promise.all will wait for all promises to be  rejected or resolved , the reject in this case does not block the rollDice
 // ! Do not change or remove the code below
 module.exports = rollTheDices;
