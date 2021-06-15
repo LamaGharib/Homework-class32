@@ -12,10 +12,9 @@ const getAnonName = (firstName) => {
     setTimeout(() => {
       if (!firstName) {
         reject(new Error("You didn't pass in a first name!"));
-        return;
+      } else {
+        resolve(`${firstName} Doe`);
       }
-
-      resolve(`${firstName} Doe`);
     }, 1000);
   });
 };
